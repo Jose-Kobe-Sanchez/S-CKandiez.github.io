@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S&C Kandies</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/Logo.png" alt="Logo" class="sc" style="width: 120px; height: 120px;">
+            </div>
+            <ul>
+                <li><a href="#hero"><img src="images/home.png" class="re-adjust" title="Home" alt="Home"></a></li>
+                <li><a href="#about"><img src="images/aboutus.png" title="About Us" alt="About Us"></a></li>
+                <li><a href="#services"><img src="images/products.png" title="Products" alt="Products"></a></li>
+                <li><a href="cartitems.html"><img src="images/cart.png" class="re-adjust" title="Cart" alt="Cart items"></a></li>
+                <li><a href="#contact"><img src="images/contacts.png" class="re-adjust" title="Contact" alt="Contacts"></a></li>
+                <li><a href="login.html"><img src="images/sign_in.png" title="Login" alt="Sign In"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <img src="images/Logo_backgroundblu.png" alt="Logo" class="sc" style="width: 250px; height: 250px;">
+        <div class="hero-content">
+            <h1>To Sweeten Your Day with S&C Kandies</h1>
+            <p>Leading solutions for modern industries. Let's build something extraordinary together.</p>
+            <button onclick="redirectToLearnMore()">Learn More</button>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <img src="images/Mattiumize.webp" alt="Mattiumize" style="width: 40%;">
+                    <h3>₱39.00</h3>
+                    <p>Mattiumize</p>
+                    <button class="add-to-cart" onclick="addToCart('Mattiumize', 39.00)">Add to Cart</button>
+                </div>
+                <div class="service-card">
+                    <img src="images/Jade lollipops.png" alt="Jade Lollipops" style="width: 20%;">
+                    <h3>₱49.99</h3>
+                    <p>Jade Lollipops</p>
+                    <button class="add-to-cart" onclick="addToCart('Jade Lollipops', 49.99)">Add to Cart</button>
+                </div>
+                <div class="service-card">
+                    <img src="images/Chamoy.jpg" alt="Chamoy" style="width: 30%;">
+                    <h3> ₱59.99</h3>
+                    <p>Delightul Chamoy Kharnels</p><br>
+                    <button class="add-to-cart" onclick="addToCart('Delightul Chamoy Kharnels', 59.99)">Add to Cart</button>
+                </div>
+                <div class="service-card">
+                    <img src="images/Lustrous Lemonizer.png" alt="Lemonade" style="width: 40%;">
+                    <h3>₱120.00</h3>
+                    <p>Lustrous Lemonizer</p>
+                    <button class="add-to-cart" onclick="addToCart('Lustrous Lemonizer', 120.00)">Add to Cart</button>
+                </div>
+                <div class="service-card">
+                    <img src="images/Conflagarated Cotton Candy.png" alt="Conflagarated Cotton Candy" style="width: 40%">
+                    <h3>₱60.00</h3>
+                    <p>Conflagarated Cotton Candy</p>
+                    <img src="" alt="">
+                    <button class="add-to-cart" onclick="addToCart('Conflagarated Cotton Candy', 60.00)">Add to Cart</button>
+                </div>
+                <div class="service-card">
+                    <img src="images/Emeraldine Lemonizer.png" alt="Emeraldine Lemonizer" style="width: 30%">
+                    <h3>₱120.00</h3>
+                    <p>Emeraldine Dalandan</p>
+                    <button class="add-to-cart" onclick="addToCart('Emeraldine Dalandan', 120.00)">Add to Cart</button>
+                </div>
+                <div class="service-card">
+                    <img src="images/Aquila Kandieza.png" alt="Aquila Kandieza" style="width: 30%;">
+                    <h3>₱250.00</h3>
+                    <p>Aquila Kandieza</p>
+                    <button class="add-to-cart" onclick="addToCart('Aquila Kandieza', 250.00)">Add to Cart</button>
+                </div>
+                <div class="service-card">
+                    <img src="images/Surging Gummies.png" alt="Surging Gummers" style="width: 50%;">
+                    <h3>₱30.00</h3>
+                    <p>Surging Gummers</p>
+                    <button class="add-to-cart" onclick="addToCart('Surging Gummies', 30.00)">Add to Cart</button>
+                </div>
+                <div class="service-card">
+                    <img src="images/Rainbow Ripple.png" alt="RainbowR" style="width: 30%;">
+                    <h3>₱20.00</h3>
+                    <p>Rippling Rainbow Riptide</p>
+                    <button class="add-to-cart" onclick="addToCart('Rainbow Ripple', 20.00)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We at Sanchez and Cogo Kandiez are dedicated to give you a wonderful day with our sweet and delectible Kandiez, with varieties to choose from!</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: S&CKbusiness@gmail.com</p>
+            <p>Phone: +1 (800) 123-4567</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 S&C Kandies. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
